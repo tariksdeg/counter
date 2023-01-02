@@ -6,7 +6,7 @@ const counterReducer = (state = initialState.counterState, action) => {
     case actionTypes.START:
       return {...state,value:action?.value};
     case actionTypes.STOP:
-      return {state};
+      return {...state,value:action?.value};
     default:
       return state
   }

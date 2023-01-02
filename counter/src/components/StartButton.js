@@ -6,7 +6,9 @@ const StartButton=(data)=>{
     const timer=null
     const dispatch=useDispatch()
     
+    
     const getStartCounter=(value)=>{
+      value=10
       {dispatch(counterAction(value,timer))}
     }
 return (
