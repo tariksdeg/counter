@@ -1,3 +1,4 @@
 export const counterState={
-    value:11
+    value:10,
+    deger:10
 }

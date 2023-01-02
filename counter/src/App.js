@@ -12,7 +12,7 @@ const timer=null
 
 
   useEffect(() => {
-    dispatch(counterAction(state.value,timer));
+    dispatch(counterAction(state.deger,timer));
   }, [dispatch]);
 
   return (

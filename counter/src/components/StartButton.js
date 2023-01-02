@@ -13,7 +13,7 @@ const StartButton=(data)=>{
     }
 return (
 <div>
-    <button onClick={()=>getStartCounter(data.state.value)}>Start</button>
+    <button onClick={()=>getStartCounter(data.state.deger)}>Start</button>
 </div>
 )
 }
